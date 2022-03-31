@@ -1,2 +1,2 @@
 # Práctica 1
-314170147
+Rojas Espinoza Luis Angel 314170147
