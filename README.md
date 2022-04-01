@@ -1,8 +1,8 @@
 # Práctica 1
 
-Delgado Díaz Itzel Azucena 314262358
+## Lopez Arias Victor Ulises   310173335
 
-Lopez Arias Victor Ulises   310173335
+Delgado Díaz Itzel Azucena 314262358
 
 Rojas Espinoza Luis Angel 314170147
 
