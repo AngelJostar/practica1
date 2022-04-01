@@ -3,6 +3,12 @@
 <head> 
 </head>
 <body>
-    <p th:text="'Hello, ' + ${nombre} + '!'" />
+ <style>
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+.itzel-font{
+	font-family: 'Titan One', cursive;
+}
+</style>
+    <p class="itzel-font" th:text='${nombre}' />
 </body>
 </html>
