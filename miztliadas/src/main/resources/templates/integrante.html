@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <title>Práctica 1</title>
   <style>
-    .izumi-font {
+    .other-font {
       font-family: 'Montserrat', sans-serif;
     }
   </style>
@@ -18,9 +18,9 @@
 <body>
   
   <div class="d-flex justify-content-center mt-4 ">
-    <div class="d-flex flex-column align-items-center">
-        <h1 class="izumi-font" th:text="${nombre}"></h1>
-        <a href="/"><button class="btn btn-secondary izumi-font">Regresar</button></a>
+    <div class="d-flex flex-column align-items-center" >
+        <h1 th:each="integrante : ${integrantes}" class="other-font" th:text="${integrante}"></h1>
+        <a href="/"><button class="btn btn-secondary other-font">Regresar</button></a>
     </div>
   </div>
     
