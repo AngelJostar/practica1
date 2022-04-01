@@ -3,6 +3,12 @@
 <head> 
 </head>
 <body>
-    <p th:text="'Hello, ' + ${nombre} + '!'" />
+ <style>
+ @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.font-luis{
+	font-family: 'Press Start 2P', cursive;
+}
+ </style>
+    <p class="font-luis" th:text="${nombre} + '!'" />
 </body>
 </html>
